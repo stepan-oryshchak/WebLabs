@@ -1,0 +1,60 @@
+.footer {
+    background-color: #222F33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.footer__container {
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__contact,
+.footer__info {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__info {
+        flex-direction: row;
+        text-align: right;
+    }
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .a {
+        margin-top: 30px;
+    }
+
+    .footer__contact {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .footer__privacybeleid {
+        margin-bottom: 20px;
+    }
+
+    .footer__branding {
+        margin-bottom: 15px;
+    }
+
+    .footer__links li {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+}

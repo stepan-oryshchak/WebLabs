@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+    margin-top: 0;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+li {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+button {
+    border: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+      max-width: 100%;
+      padding: 0 40px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    :root {
+      font-size: 12px;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  li {
+    display: block;
+  }
